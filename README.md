@@ -61,7 +61,7 @@ Supported Ciphers //支持以下几种加密方式
 在开始菜单中打开"Node.js command prompt"，而后进入项目目录(E:\shadowsocks-herokuapp)继续执行下列命令：
 npm install //本地安装Node模块(第一次时运行，安装后不用再运行)
 node local.js -s yorappname.herokuapp.com -l 1080 -m rc4 -k password -r 80
-server listening at { address: '127.0.0.1', family: 'IPv4', port: 1080 }
+执行成功后会显示server listening at { address: '127.0.0.1', family: 'IPv4', port: 1080 }
 ```
 
 浏览器代理设置Change proxy settings of your browser into:
