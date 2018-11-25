@@ -58,7 +58,7 @@ Supported Ciphers //支持以下几种加密方式
 - camellia-192-cfb
 - camellia-128-cfb
 
-在开始菜单中打开"Node.js command prompt"，而后继续执行下列命令：
+在开始菜单中打开"Node.js command prompt"，而后进入项目目录(E:\shadowsocks-herokuapp)继续执行下列命令：
 npm install //本地安装Node模块(第一次时运行，安装后不用再运行)
 node local.js -s yorappname.herokuapp.com -l 1080 -m rc4 -k password -r 80
 server listening at { address: '127.0.0.1', family: 'IPv4', port: 1080 }
