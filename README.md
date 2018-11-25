@@ -28,7 +28,8 @@ Heroku
 首先将本项目下载(通过Clone or download选择Download Zip下载到本地)并解压(假如解压到E:\shadowsocks-herokuapp)
 cd shadowsocks-herokuapp    //打开命令提示符，进入项目目录
 本地上传
-heroku login  //登录你的heroku账号，执行后在打开的网页上登录帐号，登录成功后命令提示符窗口显示: Logged in as XXX(XXX为你的Heroku帐号)  
+heroku login  //登录你的heroku账号，执行后在打开的网页上登录帐号，登录成功后命令提示符窗口显示: Logged in as XXX
+(XXX为你的Heroku帐号)  
 heroku create  yourappname  //或者直接在heroku 的网页后台创建app
 git init   //初始化本地版本库
 heroku git:remote -a yourappname
@@ -75,6 +76,11 @@ SOCKS5 127.0.0.1:1080
 If there is something wrong, you can check the logs by:
 
 ```
-$ heroku logs -t --app yourappname
+heroku logs -t --app yourappname
 ```
 
+### 查看Heroku剩余免费时长
+
+```
+heroku ps -a yorappname
+```
